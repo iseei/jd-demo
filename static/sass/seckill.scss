@@ -1,0 +1,176 @@
+@charset "utf-8";
+
+.seckill {
+  //div1  1190*55
+  .seckill-title {
+    height: 55px;
+    line-height: 55px;
+    position: relative;
+    color: #fff;
+    background: url(../imgs/seckill_hd.png) no-repeat;
+    .smallborder{
+      float: left;
+      margin: 3px 0 0 3px;
+      border-top: 8px #e01222 solid;
+      border-right: 8px transparent solid;
+      border-bottom: 8px transparent solid;
+      border-left: 8px #e01222 solid;
+    }
+    .tilte-clocks {
+      width: 34px;
+      height: 40px;
+      margin: 6px 0 0 30px;
+      background-image: url(../imgs/sprite_index@2x.png);
+      background-repeat: no-repeat;
+      background-position: 0px -24px;
+      background-size: 166px 150px;
+    }
+    .title {
+      margin-left: 30px;
+      font-size: 22px;
+      a {
+        font-size: 12px;
+        padding-left: 12px;
+      }
+    }
+  }
+  .seckill-time {
+    height: 55px;
+    padding-right: 20px;
+    line-height: 55px;
+    div {
+      font-weight: 600;
+      height: 55px;
+      line-height: 55px;
+      margin: 0 8px;
+      // padding-top: 2px;
+      span {
+        width: 36px;
+        height: 36px;
+        margin-top: 10px;
+        float: left;   //span默认inline
+        text-align: center;
+        font-size: 20px;
+        line-height: 36px;
+        border-radius: 4px;
+        color: #f90013;
+        background-color: #440106;
+      }
+      .colon {
+        font-weight: 700;
+        width: 12px;
+        border-radius: 0;
+        background-color: transparent;
+        color: #440106;
+      }
+    }
+  }
+  
+  //div2  (200*5+180+10)*250
+  .seckill-content {
+    background-color: #fff;
+    padding: 12px 0;
+    .seckill-item-wrapper {
+      position: relative;
+      overflow: hidden;
+      width: 1000px;
+      &:hover {
+        .seckill-prev,
+        .seckill-next {
+          display: block;
+        }
+      }
+      ul {//1000*250
+        .seckill-item{
+          float: left;
+          position: relative;
+          .small{
+            width: 30px;
+            height: 40px;
+            text-align: center;
+            color: #fff;
+            line-height: 1.4;
+            position: absolute;
+            background: url(../imgs/sprite_index@1x.png) no-repeat;
+            background-position: -54px -40px;
+            background-size: 218px 188px;
+            z-index: 11;
+          }
+        }
+        li {
+          width: 170px;
+          height: 225px;
+          float: left;
+          padding: 0 14px 0 15px;
+          border-right: 1px solid #e7e7e7;
+          .seckill-item {
+            text-align: center;
+            a {
+              display: block;
+              &:hover {
+                color:#ad0b19;
+                img{
+                  transform: translateY(-10px);
+                }
+              }
+              img {
+                width: 130px;
+                height: 130px;
+                margin: 15px 0 10px 0;
+                transition: transform .2s linear;
+              }
+              p {
+                overflow: hidden;
+                text-align: left;
+                height: 32px;
+                line-height: 16px;
+              }
+            }
+          }
+          .figure {
+            margin: 4px 0 2px 0;
+            font-size: 18px;
+            color: #f10214;
+            font-weight: 800;
+            span {
+              font-size: 12px;
+              font-weight: 400;
+            }
+            span:last-child {
+              text-decoration: line-through;
+              color: #666;
+            }
+          }
+        }
+
+      }
+      .seckill-prev,
+      .seckill-next {
+        display: none;
+        width: 16px;
+        height: 40px;
+        position: absolute;
+        top: 50%;
+        margin-top: -15px;
+        text-align: center;
+        line-height: 40px;
+        background-color: rgba(0, 0, 0, .2);
+      }
+      .seckill-next {
+        right: 9px;
+      }
+      .seckill-prev {
+        left: 9px;
+      }
+    }
+    .side-img {
+      float: left;
+      width: 180px;
+      height: 225px;
+      img {
+        width: 180px;
+        height: 225px;
+      }
+    }
+  }
+}

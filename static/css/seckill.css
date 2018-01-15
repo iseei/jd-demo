@@ -1,0 +1,31 @@
+.seckill .seckill-title { height: 55px; line-height: 55px; position: relative; color: #fff; background: url(../imgs/seckill_hd.png) no-repeat; }
+.seckill .seckill-title .smallborder { float: left; margin: 3px 0 0 3px; border-top: 8px #e01222 solid; border-right: 8px transparent solid; border-bottom: 8px transparent solid; border-left: 8px #e01222 solid; }
+.seckill .seckill-title .tilte-clocks { width: 34px; height: 40px; margin: 6px 0 0 30px; background-image: url(../imgs/sprite_index@2x.png); background-repeat: no-repeat; background-position: 0px -24px; background-size: 166px 150px; }
+.seckill .seckill-title .title { margin-left: 30px; font-size: 22px; }
+.seckill .seckill-title .title a { font-size: 12px; padding-left: 12px; }
+.seckill .seckill-time { height: 55px; padding-right: 20px; line-height: 55px; }
+.seckill .seckill-time div { font-weight: 600; height: 55px; line-height: 55px; margin: 0 8px; }
+.seckill .seckill-time div span { width: 36px; height: 36px; margin-top: 10px; float: left; text-align: center; font-size: 20px; line-height: 36px; border-radius: 4px; color: #f90013; background-color: #440106; }
+.seckill .seckill-time div .colon { font-weight: 700; width: 12px; border-radius: 0; background-color: transparent; color: #440106; }
+.seckill .seckill-content { background-color: #fff; padding: 12px 0; }
+.seckill .seckill-content .seckill-item-wrapper { position: relative; overflow: hidden; width: 1000px; }
+.seckill .seckill-content .seckill-item-wrapper:hover .seckill-prev, .seckill .seckill-content .seckill-item-wrapper:hover .seckill-next { display: block; }
+.seckill .seckill-content .seckill-item-wrapper ul .seckill-item { float: left; position: relative; }
+.seckill .seckill-content .seckill-item-wrapper ul .seckill-item .small { width: 30px; height: 40px; text-align: center; color: #fff; line-height: 1.4; position: absolute; background: url(../imgs/sprite_index@1x.png) no-repeat; background-position: -54px -40px; background-size: 218px 188px; z-index: 11; }
+.seckill .seckill-content .seckill-item-wrapper ul li { width: 170px; height: 225px; float: left; padding: 0 14px 0 15px; border-right: 1px solid #e7e7e7; }
+.seckill .seckill-content .seckill-item-wrapper ul li .seckill-item { text-align: center; }
+.seckill .seckill-content .seckill-item-wrapper ul li .seckill-item a { display: block; }
+.seckill .seckill-content .seckill-item-wrapper ul li .seckill-item a:hover { color: #ad0b19; }
+.seckill .seckill-content .seckill-item-wrapper ul li .seckill-item a:hover img { transform: translateY(-10px); }
+.seckill .seckill-content .seckill-item-wrapper ul li .seckill-item a img { width: 130px; height: 130px; margin: 15px 0 10px 0; transition: transform .2s linear; }
+.seckill .seckill-content .seckill-item-wrapper ul li .seckill-item a p { overflow: hidden; text-align: left; height: 32px; line-height: 16px; }
+.seckill .seckill-content .seckill-item-wrapper ul li .figure { margin: 4px 0 2px 0; font-size: 18px; color: #f10214; font-weight: 800; }
+.seckill .seckill-content .seckill-item-wrapper ul li .figure span { font-size: 12px; font-weight: 400; }
+.seckill .seckill-content .seckill-item-wrapper ul li .figure span:last-child { text-decoration: line-through; color: #666; }
+.seckill .seckill-content .seckill-item-wrapper .seckill-prev, .seckill .seckill-content .seckill-item-wrapper .seckill-next { display: none; width: 16px; height: 40px; position: absolute; top: 50%; margin-top: -15px; text-align: center; line-height: 40px; background-color: rgba(0, 0, 0, 0.2); }
+.seckill .seckill-content .seckill-item-wrapper .seckill-next { right: 9px; }
+.seckill .seckill-content .seckill-item-wrapper .seckill-prev { left: 9px; }
+.seckill .seckill-content .side-img { float: left; width: 180px; height: 225px; }
+.seckill .seckill-content .side-img img { width: 180px; height: 225px; }
+
+/*# sourceMappingURL=seckill.css.map */

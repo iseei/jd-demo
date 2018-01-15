@@ -1,0 +1,189 @@
+@charset "utf-8";
+
+//避免有中文注释编译时报错
+
+/* top */
+.top {
+    height: 30px;
+    background-color: #e3e4e5;
+    color: #999999;
+    .fl {
+        height: 30px;
+        line-height: 30px;
+        margin-left: 210px;
+        .icon-address {
+            vertical-align: middle;
+            color: #f10215;
+            font-size: 14px;
+
+            // margin-left: -20px;
+       
+        }
+    }
+
+    .fr {
+        height: 30px;
+        line-height: 30px;
+
+        li {
+            float: left;
+
+            a {
+                padding: 0 14px;
+                line-height: 1;
+                border-right: 1px solid #ccc;
+
+                &:hover {
+                    color: #c81623;
+                }
+            }
+
+            &:last-child {
+                a {
+                    border-right: none;
+                }
+            }
+
+            .icon-down {
+                padding-left: 5px;
+                font-size: 12px;
+                vertical-align: top;
+            }
+
+            .app {
+                height: 65px;
+                width: 65px;
+                margin-left: 5px;
+                border: 1px #cfcfcf solid;
+                background: #f6f6f6 url(../imgs/app.png) 50% no-repeat;
+
+                &::before {
+                    position: relative;
+                    top: -8px;
+                    left: 26px;
+                    content: "";
+                    display: block;
+                    width: 0px;
+                    height: 0px;
+                    border-top: none;
+                    border-right: 8px solid transparent;
+                    border-bottom: 8px solid #f6f6f6;
+                    border-left: 8px solid transparent;
+                }
+            }
+        }
+
+        .red {
+            color: #f10215;
+        }
+    }
+}
+
+/* header */
+.header {
+    height: 140px;
+
+    .wrap {
+        height: 140px;
+        position: relative;
+
+        .logo {
+            width: 190px;
+            height: 170px;
+            position: absolute;
+            top: -30px;
+            background: url(/imgs/sprite.head.png) no-repeat;
+
+            a {
+                display: block;
+                width: 190px;
+                height: 170px;
+            }
+        }
+
+        .search {
+            height: 35px;
+            position: absolute;
+            left: 300px;
+            top: 30px;
+            font-size: 16px;
+
+            // line-height: 35px;
+            input {
+                height: 33px;
+                width: 498px;
+                padding-left: 5px;
+                border: 1px  #f10215 solid;
+            }
+
+            .icon-camera {
+                position: absolute;
+                left: 470px;
+                top: 8px;
+            }
+
+            button {
+                color: #fff;
+                display: inline;
+                padding: 0px 15px;
+                border: 1px #f10215 solid;
+                background: #f10215;
+                line-height: 33px;
+                vertical-align: top;
+            }
+
+            .car {
+                height: 33px;
+                line-height: 33px;
+                padding: 0 40px;
+                margin-left: 30px;
+                float: right;
+                position: relative;
+                background: #ffffff;
+                color: #f10215;
+            }
+        }
+
+        .hotwords {
+            position: absolute;
+            left: 300px;
+            top: 70px;
+
+            ul {
+                li {
+                    float: left;
+                    margin-right: 10px;
+
+                    a:hover {
+                        color: #c81623;
+                    }
+                }
+            }
+        }
+
+        .nav {
+            position: absolute;
+            left: 200px;
+            bottom: 0px;
+
+            ul {
+                font-size: 16px;
+                line-height: 1;
+                font-weight: 600;
+
+                li {
+                    float: left;
+                    padding: 0 15px;
+
+                    &:hover {
+                        color: #c81623;
+                    }
+                }
+
+                li.line {
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+}

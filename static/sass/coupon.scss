@@ -1,0 +1,142 @@
+@charset "utf-8";
+.coupon {
+  width: 1190px;
+  height: 270px;
+  margin-top: 20px;
+  //get券
+  .get-coupon{
+    width: 790px;
+    height: 270px;
+    float: left;
+    background: #fff;
+    .coupon-item {
+      float: left;
+      height: 215px;
+      li {
+        float: left;
+        margin: 10px 0px;
+        padding: 0 15px;
+        width: 166px;
+        height: 195px;
+        border-right: 1px solid #e7e7e7;
+        a {
+          position: relative;
+          display: block;
+          margin: 10px 0;
+          padding: 0 15px;
+          .item-content {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 10;
+            width: 100px;
+            height: 177px;
+            border-top: 3px solid #e93524;
+            background-color: #fff;
+            p {
+              margin-top: 4px;
+              font-size: 24px;
+              color: #f10214;
+              font-weight: 700;
+              span {
+                font-size: 12px;
+              }
+            }
+            .coupon-limit {
+              margin-top: 4px;
+              display: block;
+              margin-left: 2px;
+              width: 84px;
+              color: #f10214;
+            }
+            .coupon-use {
+              margin-top: 4px;
+              padding: 12px 14px;
+              width: 72px;
+              height: 42px;
+              border-top: #ACD8F5 1px dotted;
+              background-color: #e7e7e7;
+              color: #676767;
+            }
+            .coupon-more {
+              display: block;
+              width: 100px;
+              text-align: center;
+              line-height: 26px;
+              background-color: #e93524;
+              color: #fff;
+            }
+          }
+          >img {
+            position: absolute;
+            top: 15px;
+            right: 0px;
+            width: 140px;
+            height: 140px;
+            transition: transform 0.2s linear;
+          }
+          &:hover {
+            >img {
+              transform: translateX(10px);
+            }
+          }
+        }
+        &:last-child {
+          border-right: none;
+        }
+      }
+    }
+  }
+
+  //觅me
+  .seek-me{
+    width: 390px;
+    height: 270px;
+    margin-left: 10px;
+    float: left;
+    background: #fff;
+    .mime_list{
+      position: relative;
+      height:215px;
+      width: 390px;
+      overflow: hidden;
+    }
+    .mime_item{
+      position: relative;
+      height:140px;
+      width: 330px;
+      padding: 25px 30px 50px 30px;
+      .mime_lk{
+        img{
+          width: 200px;
+          height: 140px;
+          float: left;
+        }
+        span{
+          float: right;
+          width: 120px;
+          margin-left: 10px;
+        }
+        .mime_title{
+          font-size: 14px;
+          font-weight: 600;
+          color: #555;
+        }
+        .mime_desc{
+          margin-top: 10px;
+          i{
+            color: rgb(21, 21, 153);
+          }
+        }
+        .mime_seen{
+          margin-top: 10px;
+          position: absolute;
+          bottom: 46px;
+        }
+
+      }
+
+    }
+  }
+
+}
