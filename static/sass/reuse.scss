@@ -94,7 +94,11 @@
 @mixin buttonheader($bgcolor: red, $width: 590px, $float: left) {
     float: $float;
     margin-bottom: 30px;
-
+    .general-content{
+        p{
+            color: $bgcolor;
+        }
+    }
     .button-header {
         width: $width;
         height: 58px;
@@ -246,7 +250,7 @@
                     width: 100px;
                     margin-top: 30px;
                     font-size: 14px;
-                    color: #e16c46;
+                    // color: #e16c46;
                 }
 
                 span {
