@@ -2,7 +2,7 @@
 .header .search-wrapper { margin: 0 auto; width: 550px; }
 .header .search-wrapper .search { position: relative; }
 .header .search-wrapper .search .shelper { position: absolute; top: 35px; width: 500px; max-height: 500px; background-color: #fff; overflow: hidden; font-size: 12px; z-index: 99; }
-.header .search-wrapper .search .shelper li { line-height: 2; padding: 0 10px; }
+.header .search-wrapper .search .shelper li { line-height: 2; padding: 0 10px; cursor: pointer; }
 .header .search-wrapper .search .shelper li:hover { background: #f6f6f6; }
 .header .search-wrapper .search input { padding-left: 4px; height: 33px; line-height: 33px; width: 494px; border: 1px solid #f10316; }
 .header .search-wrapper .search .icon-camera { position: absolute; top: 4px; right: 64px; font-size: 20px; color: #828282; }

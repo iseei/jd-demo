@@ -6,3 +6,4 @@ package-lock.json
 .vscode
 jd-demo/static/.sass-cache
 *.idea
+*.css.map
