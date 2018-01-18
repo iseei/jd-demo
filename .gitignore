@@ -4,6 +4,6 @@ npm-debug.log
 package-lock.json
 .idea
 .vscode
-jd-demo/static/.sass-cache
+jd-demo/static/.sass-cache/
 *.idea
 *.css.map
